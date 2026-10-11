@@ -29,8 +29,17 @@ public class Day01 {
 
         // TODO 1: 3 variables banao: tumhara city (String), LeetCode target 300 (int), height in metres (double). Ek line mein print karo.
 
-        // TODO 2: 7 / 2 print karo. Pehle copy pe likho kya aayega, phir chalao. Phir aisa badlo ki 3.5 aaye, bina 3.5 likhe.
+        String city = "Kasganj";
+        int leetcode_target=300;
+        double height = 1.65;
+        System.out.println("city: "+  city+ " | leetcode_target: "+ leetcode_target + " | height: "+height);
 
+        // TODO 2: 7 / 2 print karo. Pehle copy pe likho kya aayega, phir chalao. Phir aisa badlo ki 3.5 aaye, bina 3.5 likhe.
+        
+        System.out.println("7/2 = "+(7/2));
+        System.out.println("7/2 = "+(7.0/2));
         // TODO 3: totalDays se weeks aur bache din nikalo (/ aur % se). Output aisa ho: 182 days = 26 weeks and 0 days
+        System.out.println(totalDays+" days = "+(totalDays/7)+" weeks and "+(totalDays%7)+" days");
+
     }
 }
