@@ -39,6 +39,7 @@ public class Day01 {
         System.out.println("7/2 = "+(7/2));
         System.out.println("7/2 = "+(7.0/2));
         // TODO 3: totalDays se weeks aur bache din nikalo (/ aur % se). Output aisa ho: 182 days = 26 weeks and 0 days
+        
         System.out.println(totalDays+" days = "+(totalDays/7)+" weeks and "+(totalDays%7)+" days");
 
     }
